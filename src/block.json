@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "transk-block/links-block",
+	"version": "0.1.0",
+	"title": "Translation Dashboard Block",
+	"category": "widgets",
+	"icon": "translation",
+	"description": "A Translation Dashboard Block for Translation Dashboard plugin",
+	
+	"supports": {
+		"html": false
+	},
+	"textdomain": "transk-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
