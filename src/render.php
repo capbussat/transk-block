@@ -1,6 +1,7 @@
 <!-- translation dashboard block -->
 <div <?php echo get_block_wrapper_attributes(); ?>>
 <?php
+// Function exists if translation dashboard is active.
 if ( function_exists( 'transk_get_settings' ) ) {
 	$transk_post_id = get_the_ID();
 	$options = transk_get_settings();

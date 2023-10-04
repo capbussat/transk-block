@@ -9,7 +9,10 @@
 	"description": "A Translation Dashboard Block for Translation Dashboard plugin",
 	
 	"supports": {
-		"html": false
+		"html": false,
+		"align": [ "right" , "left", "center"],
+		"color": true 
+		
 	},
 	"textdomain": "transk-block",
 	"editorScript": "file:./index.js",
